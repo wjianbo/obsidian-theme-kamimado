@@ -1,5 +1,7 @@
 This is a sample theme for Obsidian ([https://obsidian.md](https://obsidian.md/)).
 
+Tags in reading view are styled like printed index terms: monochrome, unboxed, and slightly smaller than body text.
+
 ## First Time publishing a theme?
 
 ### Quick start
