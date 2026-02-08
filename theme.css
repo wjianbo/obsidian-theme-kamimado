@@ -53,6 +53,32 @@ body {
   margin-bottom: var(--paragraph-spacing);
 }
 
+/* ==== Tags ==== */
+
+.markdown-preview-view .tag,
+.markdown-preview-view a.tag,
+.markdown-reading-view .tag,
+.markdown-reading-view a.tag {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 0 0.2em 0 0;
+  font-size: 0.88em;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+.markdown-preview-view .tag:hover,
+.markdown-preview-view a.tag:hover,
+.markdown-reading-view .tag:hover,
+.markdown-reading-view a.tag:hover {
+  text-decoration: underline;
+}
+
 /* ==== Paper feeling ==== */
 
 .markdown-preview-view {
@@ -105,4 +131,3 @@ blockquote {
   content: "○";
   width: unset; height: unset;
 }
-
