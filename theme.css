@@ -78,31 +78,11 @@ blockquote {
   }
 }
 
-
-.markdown-preview-view ul {
-  list-style: none;
+.list-bullet {
+  display: none;
 }
 
+.cm-formatting-list-ul::before,
 .markdown-preview-view ul li::before {
   content: "○";
-  position: absolute;
-  margin-left: -1.2em;
 }
-
-.markdown-preview-view
-.list-bullet::after {
-  box-shadow: none;
-  background-color: transparent;
-}
-
-.cm-formatting-list
-.list-bullet::after {
-  box-shadow: none;
-  background-color: transparent;
-}
-.cm-formatting-list
-.list-bullet::after {
-  content: "○";
-  width: unset; height: unset;
-}
-
